@@ -44,7 +44,7 @@ def emp_process():
             filename = input("파일명: ")
             with open(filename, 'wb') as f:
                 pickle.dump(emp_list, f)
-            print(f"{filename} 파일에 저장되었습니다.")
+            print(f"{filename} 파일에 성공적으로 저장되었습니다.")
 
         elif choice == '5':
             filename = input("파일명: ")
